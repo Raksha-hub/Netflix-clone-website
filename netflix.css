@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    background-image: url(hero\ img.jpg);
+    height: 800px;
+    width: auto;
+    overflow: hidden;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+nav .netflix-logo img{
+    width: 17%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+nav .btn{
+    
+    justify-content: space-between;
+
+}
+.eng-btn{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+   margin-top: 50px;
+    margin-right: 20px;
+
+}
+.signin-btn{
+    background-color: red;
+    border:none;
+    color: white;
+    border-radius: 3px;
+    font-size: 25px;
+    margin-right: 40px;
+}
+.main{
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+    line-height: 70px;
+}
+.main h1{
+    font-size: 50px;
+}
+.main h2{
+    font-size:30px ;
+}
+.main p{
+    font-size: 20px;
+}
+.main .input input{
+    font-size: 40px;
+    box-sizing: 40px;
+    margin: 0%;
+    padding: 0%;
+    gap: 0px;
+}
+.main .input button{
+    font-size: 40px;
+    background-color: red;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+.first{/*.....................first page.......................*/
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+
+}
+.first .text{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    text-align: center;
+    margin: 150px 50px;
+    
+   /* text-align: center;
+    line-height: 30px;
+    color: white;
+    margin:200px 80px 200px 80px;*/
+}
+.first img{
+    width: 40%;
+    height: 50%;
+   margin: 60px 60px;
+}
+.first .text h1{
+    font-size: 40px;
+}
+.first .text p{
+    font-size: 20px;
+}
+
+
+
+
+
+.second{/*.....................second page.......................*/
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+
+}
+.second img{
+  /*3width: 40%;
+    height: 30%;*/
+   margin: 60px 60px;
+}
+.second .text-second{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    text-align: center;
+    margin: 150px 50px;
+    
+   /* text-align: center;
+    line-height: 30px;
+    color: white;
+    margin:200px 80px 200px 80px;*/
+}
+
+.second .text-second h1{
+    font-size: 40px;
+}
+.second .text-second p{
+    font-size: 20px;
+}
+hr{
+color: gray;
+  height: 5px;
+}
+.buttons{
+    background-color: black;
+    text-align: center;
+}
+.buttons h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: white;
+
+}.buttons button{
+    width: 900px;
+    height: 60px;
+    background-color: rgba(128, 128, 128, 0.362);
+    color: white;
+    font-size:26px ;
+    /*margin-left: 26%;*/
+    text-align: left;
+}
+.footer{
+    background-color: black;
+    padding: 20px;
+    
+}
+.footer .footer-container{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: 80px 30px;
+}
+.footer .footer-container .lis{
+    color: white;
+    
+}
