@@ -92,11 +92,7 @@ nav .btn{
     color: white;
     text-align: center;
     margin: 150px 50px;
-    
-   /* text-align: center;
-    line-height: 30px;
-    color: white;
-    margin:200px 80px 200px 80px;*/
+ 
 }
 .first img{
     width: 40%;
@@ -122,8 +118,7 @@ nav .btn{
 
 }
 .second img{
-  /*3width: 40%;
-    height: 30%;*/
+  
    margin: 60px 60px;
 }
 .second .text-second{
@@ -135,10 +130,7 @@ nav .btn{
     text-align: center;
     margin: 150px 50px;
     
-   /* text-align: center;
-    line-height: 30px;
-    color: white;
-    margin:200px 80px 200px 80px;*/
+ 
 }
 
 .second .text-second h1{
@@ -167,7 +159,6 @@ color: gray;
     background-color: rgba(128, 128, 128, 0.362);
     color: white;
     font-size:26px ;
-    /*margin-left: 26%;*/
     text-align: left;
 }
 .footer{
